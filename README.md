@@ -54,3 +54,17 @@ No esta limitado a código de programas.
 ```bash
     git clone https://github.com/Laboratorio-III/unidad01
 ```
+
+---
+# Setup *user.name* y *user.email*
+```
+git config --global user.name
+
+git config --global user.name "Tu Nombre"
+
+git config --global user.email
+
+git config --global user.email "tumail@algo.com"
+
+```
+---
