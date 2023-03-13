@@ -41,4 +41,16 @@ header: Laboratorio 3
 ## [Gui](https://git-scm.com/downloads/guis)
 
 ---
-#  
+# 
+![bg Git cil w:60%](img/gitbahs.png)
+
+---
+# Clonado de repositorios
+
+Un repositorio e un recurso en la nube donde se aloja código o cualquier tipo de archivo.
+
+No esta limitado a código de programas. 
+
+```bash
+    git clone https://github.com/Laboratorio-III/unidad01
+```
