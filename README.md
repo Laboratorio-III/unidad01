@@ -108,7 +108,25 @@ muestra el estado del directorio de trabajo y del área del entorno de ensayo (s
 # Comando **git add**
 
 Si todo lo que muestra el comando *git status* esta correcto
+```
+git add archivo.md 
+```
+
 
 ```
 git commit -m "Encuesta final y borrado de archivos no usados"
+```
+---
+# GitHub Tokens
+
+En github debemos generar un token para poder subir los archivos agrados o modificado en https://github.com/settings/tokens
+
+![bg right w:100%](img/githubToken.png)
+
+---
+# Subir los cambios al repositorio.
+```
+git fetch 
+git merge origin/main 
+git push origin main 
 ```
