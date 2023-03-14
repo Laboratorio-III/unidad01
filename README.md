@@ -106,3 +106,9 @@ muestra el estado del directorio de trabajo y del área del entorno de ensayo (s
 
 ---
 # Comando **git add**
+
+Si todo lo que muestra el comando *git status* esta correcto
+
+```
+git commit -m "Encuesta final y borrado de archivos no usados"
+```
