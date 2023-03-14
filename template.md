@@ -1,12 +1,12 @@
 # Encuesta para recopilar información para mejorar el contenido y los temas de Laboratorio III 
 ## Programación I 
-### Contenido:
+### Contenidos:
 *
 *
 ### ¿Que temas fueron los mas interesantes?
 *
 *
-### ¿Que otros temas hubieras preferido o que sean ampliados?
+### ¿Que otros temas hubieras preferido o cuales profundizado?
 *
 *
 ### Observaciones 

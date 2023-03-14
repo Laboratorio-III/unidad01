@@ -68,3 +68,41 @@ git config --global user.email "tumail@algo.com"
 
 ```
 ---
+# Trabajo practico 1
+
+Habiendo clonado el repositorio unida1 de la Organización Laboratorio-III. Deberán tener la siguiente estructura de archivos.
+
+``` shell
+img/ README.md template.md
+```
+Copiar el archivo template.md a otro con su número de legajo con la extension md.
+```
+cp template.md xxxxxx.md
+codium .
+```
+---
+
+![bg w:75% ](img/codium.png)
+
+---
+# Markdown
+## Sub Titulo
+
+Resultado de imagen para markdown
+Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple
+```
+# Markdown
+
+## Subtítulo
+
+Resultado de imagen para markdown
+Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple
+```
+---
+
+# Comando **git status**
+muestra el estado del directorio de trabajo y del área del entorno de ensayo (staging area)
+![](img/stagingarea.png)
+
+---
+# Comando **git add**
