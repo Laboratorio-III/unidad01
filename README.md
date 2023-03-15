@@ -54,6 +54,8 @@ No esta limitado a código de programas.
 ```bash
     git clone https://github.com/Laboratorio-III/unidad01
 ```
+Luego se creara un directorio con el nombre unidad 1. En donde debemos entrar con el comando  ``` cd unidad01 ```
+
 
 ---
 # Setup *user.name* y *user.email*
