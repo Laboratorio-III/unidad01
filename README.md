@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 paginate: true
 author: Pablo Moreira
 theme: gaia
@@ -266,7 +266,7 @@ _**Convidados**_
 <!-- footer: ""-->
 
 Cuando $a \ne 0$, hay dos soluciones para $(ax^2 + bx + c = 0)$ y  ellas son: 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ```
 Cuando $a \ne 0$, hay dos soluciones para $(ax^2 + bx + c = 0)$ y  ellas son: 
