@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 paginate: true
 author: Pablo Moreira
 theme: gaia
@@ -54,6 +54,8 @@ No esta limitado a código de programas.
 ```bash
     git clone https://github.com/Laboratorio-III/unidad01
 ```
+Luego se creara un directorio con el nombre unidad 1. En donde debemos entrar con el comando  ``` cd unidad01 ```
+
 
 ---
 # Setup *user.name* y *user.email*
@@ -125,8 +127,167 @@ En github debemos generar un token para poder subir los archivos agrados o modif
 
 ---
 # Subir los cambios al repositorio.
+El parámetro ```fetch``` sincroniza información del repositorio remoto, ```merge``` hace la actualización y luego de haber hecho ```add``` y *commit* sube los cambios a la nube.
 ```
 git fetch 
-git merge origin/main 
+git merge origin/main #
 git push origin main 
 ```
+----
+<!-- footer: Markdown -->
+
+
+# Markdown
+
+## **Es un lenguaje de marcado estilo html pero simplificado para generar documentos de forma rápida y clara.**
+
+---
+<!-- header: Encabezados -->
+<!-- footer: ""-->
+
+# Titulo 1
+## Titulo 2
+### Titulo 3
+#### Titulo 4
+##### Titulo 5
+```
+# Titulo 1
+## Titulo 2
+### Titulo 3
+#### Titulo 4
+##### Titulo 5
+```
+---
+
+<!-- header: Citas -->
+<!-- footer: ""-->
+Albert Einstein (Premio Nobel de Física en 1921): 
+> solo hay dos cosas infinitas, el universo y la estupidez humana, y no estoy muy seguro de la primera”
+```
+Albert Einstein (Premio Nobel de Física en 1921): 
+> solo hay dos cosas infinitas, el universo y la estupidez humana, y no estoy muy seguro de la primera”
+```
+---
+<!-- header: Listas -->
+<!-- footer: ""-->
+
+* C
+* C++
+* Java
+* Python
+
+
+```
+* C
+* C++
+* Java
+* Python
+```
+---
+
+1. Go
+2. Rust
+3. Javascript
+```
+1. Go
+2. Rust
+3. Javascript
+
+```
+---
+<!-- header: Code Block -->
+<!-- footer: ""-->
+```python
+for i in range(10):
+    print(i)
+
+j = 0
+while flag == True:
+    if j > 9:
+        flag = False
+    j += 1
+
+```
+\```python
+for i in range(10):
+print(i)
+\```
+
+---
+<!-- header: Link -->
+<!-- footer: ""-->
+
+Esto es  [un ejemplo](http://example.com/ "Algo que poner") link en linea.
+
+```
+Esto es  [un ejemplo](http://example.com/ "Algo que poner") link en linea.
+
+```
+---
+<!-- header: Énfasis -->
+<!-- footer: ""-->
+
+
+*simple asterisco*
+
+**doble asterisco**
+
+_**Convidados**_
+
+
+```
+*simple asterisco*
+
+**doble asterisco**
+
+_**Convidados**_
+
+```
+---
+<!-- header: Tablas -->
+<!-- footer: ""-->
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1    | Cell 2   | Cell 3   |
+| Row 2    | Cell 5   | Cell 6   |
+| Row 3    | Cell 8   | Cell 9   |
+
+```
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1    | Cell 2   | Cell 3   |
+| Row 2    | Cell 5   | Cell 6   |
+| Row 3    | Cell 8   | Cell 9   |
+
+```
+---
+<!-- header: Ecuaciones -->
+<!-- footer: ""-->
+
+Cuando $a \ne 0$, hay dos soluciones para $(ax^2 + bx + c = 0)$ y  ellas son: 
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
+```
+Cuando $a \ne 0$, hay dos soluciones para $(ax^2 + bx + c = 0)$ y  ellas son: 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+
+```
+---
+<!-- header: Practica -->
+<!-- footer: ""-->
+#### Completar el archivo Markdown con la siguiete tabla 
+Valores
+1. Fácil
+2. Medio
+3. Difícil
+
+| Materia| Lenguaje| Dificultad |
+| -- | -- | -- |  
+| Programación 1| Pseudo Código | 2 |
+|Laboratorio 1 |               |
+|Programación 2 |               |       |
+|           |           |           |
+
+
